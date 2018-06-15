@@ -29,7 +29,7 @@ summary(fit)
 
 ## f) the null hypothesis: H0 beta1 >= 0 then the alternative hypothesis is: H1 beta1 < 0
 ## The null hypothesis states that women's work hours contribute to the average population work hours and the alternative hypothesis states the opposite
-## From the results of the linear model, we can reject the null hypothesis.
+## From the results of the linear model, we can reject the null hypothesis;
 
 ## g)
 populationMean <- mean(houseWork$hours)

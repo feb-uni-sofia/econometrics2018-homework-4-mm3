@@ -5,7 +5,7 @@ str(crime)
 library(dplyr)
 library(ggplot2)
 
-## a) crime rates increase with the increase in high-school graduates percentage.
+## a) crime rates increase with the increase in high-school graduates percentage;
 fit <- lm(C ~ HS, data = crime)
 summary(fit)
 
